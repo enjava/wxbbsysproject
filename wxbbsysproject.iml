@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="hibernate" name="Hibernate">
+      <configuration>
+        <datasource-map>
+          <unit-entry name="sessionFactory" value="e203c885-3b5a-4702-94bd-ad0267f67f93" />
+        </datasource-map>
+        <naming-strategy-map />
+      </configuration>
+    </facet>
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/web/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/web" relative="/" />
+        </webroots>
+      </configuration>
+      <facet type="Struts2" name="Struts 2">
+        <configuration>
+          <fileset id="s2fileset" name="Default File Set " removed="false">
+            <file>file://$MODULE_DIR$/src/config/struts.xml</file>
+            <file>jar://E:/java tools/jar/struts2.3.20spring4.2.2hibernate4.2.2/struts2-spring-plugin-2.3.20.jar!/struts-plugin.xml</file>
+            <file>jar://E:/java tools/jar/struts2.3.20spring4.2.2hibernate4.2.2/struts2-core-2.3.20.jar!/struts-default.xml</file>
+          </fileset>
+          <propertiesKeys disabled="false" />
+        </configuration>
+      </facet>
+    </facet>
+    <facet type="Spring" name="Spring">
+      <configuration>
+        <fileset id="fileset" name="Spring Application Context" removed="false">
+          <file>file://$MODULE_DIR$/src/config/spring-config.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/config" type="java-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Hibernate" level="project" />
+    <orderEntry type="library" name="Spring" level="project" />
+    <orderEntry type="library" name="Struts 2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Tomcat 8.0.36" level="application_server_libraries" />
+  </component>
+</module>

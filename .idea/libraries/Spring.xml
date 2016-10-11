@@ -1,0 +1,25 @@
+<component name="libraryTable">
+  <library name="Spring" type="spring">
+    <CLASSES>
+      <root url="jar://E:/java tools/jar/struts2.3.20spring4.2.2hibernate4.2.2/spring-aop-4.2.3.RELEASE.jar!/" />
+      <root url="jar://E:/java tools/jar/struts2.3.20spring4.2.2hibernate4.2.2/spring-aspects-4.2.3.RELEASE.jar!/" />
+      <root url="jar://E:/java tools/jar/struts2.3.20spring4.2.2hibernate4.2.2/spring-beans-4.2.3.RELEASE.jar!/" />
+      <root url="jar://E:/java tools/jar/struts2.3.20spring4.2.2hibernate4.2.2/spring-context-4.2.3.RELEASE.jar!/" />
+      <root url="jar://E:/java tools/jar/struts2.3.20spring4.2.2hibernate4.2.2/spring-context-support-4.2.3.RELEASE.jar!/" />
+      <root url="jar://E:/java tools/jar/struts2.3.20spring4.2.2hibernate4.2.2/spring-core-4.2.3.RELEASE.jar!/" />
+      <root url="jar://E:/java tools/jar/struts2.3.20spring4.2.2hibernate4.2.2/spring-expression-4.2.3.RELEASE.jar!/" />
+      <root url="jar://E:/java tools/jar/struts2.3.20spring4.2.2hibernate4.2.2/spring-instrument-4.2.3.RELEASE.jar!/" />
+      <root url="jar://E:/java tools/jar/struts2.3.20spring4.2.2hibernate4.2.2/spring-instrument-tomcat-4.2.3.RELEASE.jar!/" />
+      <root url="jar://E:/java tools/jar/struts2.3.20spring4.2.2hibernate4.2.2/spring-jdbc-4.2.3.RELEASE.jar!/" />
+      <root url="jar://E:/java tools/jar/struts2.3.20spring4.2.2hibernate4.2.2/spring-jms-4.2.3.RELEASE.jar!/" />
+      <root url="jar://E:/java tools/jar/struts2.3.20spring4.2.2hibernate4.2.2/spring-messaging-4.2.3.RELEASE.jar!/" />
+      <root url="jar://E:/java tools/jar/struts2.3.20spring4.2.2hibernate4.2.2/spring-orm-4.2.3.RELEASE.jar!/" />
+      <root url="jar://E:/java tools/jar/struts2.3.20spring4.2.2hibernate4.2.2/spring-oxm-4.2.3.RELEASE.jar!/" />
+      <root url="jar://E:/java tools/jar/struts2.3.20spring4.2.2hibernate4.2.2/spring-tx-4.2.3.RELEASE.jar!/" />
+      <root url="jar://E:/java tools/jar/struts2.3.20spring4.2.2hibernate4.2.2/spring-test-4.2.3.RELEASE.jar!/" />
+      <root url="jar://E:/java tools/jar/struts2.3.20spring4.2.2hibernate4.2.2/spring-web-4.2.3.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
