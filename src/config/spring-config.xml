@@ -48,23 +48,23 @@
         </property>
     </bean>
     <!-- spring事务管理 -->
-    <bean id="txManager" class="org.springframework.orm.hibernate4.HibernateTransactionManager">
-        <property name="sessionFactory" ref="sessionFactory"/>
-    </bean>
-    <tx:advice id="txAdvice" transaction-manager="txManager">
-        <tx:attributes>
-            <!-- 一下内容为凡是方法名以get、query、find开头的都是readonly，其他军事默认是REQUIRED -->
-            <tx:method name="get*" read-only="true" />
-            <tx:method name="query*" read-only="true" />
-            <tx:method name="find*" read-only="true"  />
-            <tx:method name="add*" propagation="REQUIRED"/>
-            <!-- 在spring中默认就是required -->
-        </tx:attributes>
-    </tx:advice>
-    <!--<bean id="txManager"  class="org.springframework.orm.hibernate4.HibernateTransactionManager">-->
+    <!--<bean id="txManager" class="org.springframework.orm.hibernate4.HibernateTransactionManager">-->
         <!--<property name="sessionFactory" ref="sessionFactory"/>-->
     <!--</bean>-->
-    <!--&lt;!&ndash; 使用基于注解方式配置事务 &ndash;&gt;-->
-    <!--<tx:annotation-driven transaction-manager="txManager"/>-->
+    <!--<tx:advice id="txAdvice" transaction-manager="txManager">-->
+        <!--<tx:attributes>-->
+            <!--&lt;!&ndash; 一下内容为凡是方法名以get、query、find开头的都是readonly，其他军事默认是REQUIRED &ndash;&gt;-->
+            <!--<tx:method name="get*" read-only="true" />-->
+            <!--<tx:method name="query*" read-only="true" />-->
+            <!--<tx:method name="find*" read-only="true"  />-->
+            <!--<tx:method name="add*" propagation="REQUIRED"/>-->
+            <!--&lt;!&ndash; 在spring中默认就是required &ndash;&gt;-->
+        <!--</tx:attributes>-->
+    <!--</tx:advice>-->
+    <bean id="txManager"  class="org.springframework.orm.hibernate4.HibernateTransactionManager">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+    <!-- 使用基于注解方式配置事务 -->
+    <tx:annotation-driven transaction-manager="txManager"/>
 
 </beans>
